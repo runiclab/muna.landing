@@ -109,9 +109,9 @@ em { font-family:'Instrument Serif',serif; font-weight:400; letter-spacing:-.035
 .memory-node circle { fill:#f3f0ea; stroke:#7657e9; stroke-width:1; }
 .memory-node path { fill:none; stroke:#7657e9; stroke-width:1; stroke-linecap:round; stroke-linejoin:round; }
 .core-ring { fill:rgba(118,87,233,.1); stroke:rgba(118,87,233,.26); stroke-width:1; }
-.core-manu-mark,.presence-mark { transform-box:view-box; animation:mark-turn 14s linear infinite; }
-.core-manu-mark { transform-origin:110px 75px; }.presence-mark { transform-origin:110px 98px; }
-.core-manu-mark path { fill:none; stroke:#fff; stroke-width:1.8; stroke-linecap:round; }
+.core-muna-mark,.presence-mark { transform-box:view-box; animation:mark-turn 14s linear infinite; }
+.core-muna-mark { transform-origin:110px 75px; }.presence-mark { transform-origin:110px 98px; }
+.core-muna-mark path { fill:none; stroke:#fff; stroke-width:1.8; stroke-linecap:round; }
 .visual-orbit.dashed { transform-box:view-box; transform-origin:center; animation:orbit-turn 20s linear infinite; }
 .visual-chip { fill:rgba(255,255,255,.72); stroke:rgba(21,19,26,.12); }
 .chip-dot { fill:#7657e9; }.chip-line,.thought-line,.motion-line,.bubble-line,.base-line { fill:none; stroke:rgba(21,19,26,.3); stroke-width:1.4; stroke-linecap:round; }
@@ -127,7 +127,7 @@ em { font-family:'Instrument Serif',serif; font-weight:400; letter-spacing:-.035
 .signal-ring.ring-one { transform-box:view-box; transform-origin:110px 92px; animation:signal-sway 8s ease-in-out infinite alternate; }
 .signal-ring.ring-two { transform-box:view-box; transform-origin:110px 92px; animation:signal-sway 11s ease-in-out infinite alternate-reverse; }
 .principles article:hover .visual-orbit.dashed { animation-duration:10s; }
-.principles article:hover .core-manu-mark,.principles article:hover .presence-mark { animation-duration:7s; }
+.principles article:hover .core-muna-mark,.principles article:hover .presence-mark { animation-duration:7s; }
 @keyframes orbit-turn { to { transform:rotate(360deg); } }
 @keyframes mark-turn { to { transform:rotate(360deg); } }
 @keyframes signal-sway { from { transform:rotate(-8deg); } to { transform:rotate(8deg); } }
@@ -181,4 +181,4 @@ footer { padding:58px max(36px,calc((100vw - 1380px)/2)) 28px; overflow:hidden; 
   .final-cta{min-height:570px}.final-cta h2{font-size:61px}.footer-top{grid-template-columns:1fr;gap:42px;padding-bottom:65px}.footer-links{justify-self:start}.footer-bottom span:nth-child(2){display:none}
 }
 
-@media (prefers-reduced-motion: reduce) { html{scroll-behavior:auto}.typing span,.core-manu-mark,.presence-mark,.visual-orbit.dashed,.signal-ring,.online-pulse,.orbit-one,.orbit-two{animation:none}*{transition:none!important} }
+@media (prefers-reduced-motion: reduce) { html{scroll-behavior:auto}.typing span,.core-muna-mark,.presence-mark,.visual-orbit.dashed,.signal-ring,.online-pulse,.orbit-one,.orbit-two{animation:none}*{transition:none!important} }
