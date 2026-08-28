@@ -1,0 +1,4 @@
+providers = ["node"]
+
+[variables]
+NIXPACKS_SPA_OUT_DIR = "dist"
